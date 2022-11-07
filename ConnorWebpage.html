@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<style>
+    @keyframes example {
+        from {
+            background-color: red;
+        }
+
+        to {
+            background-color: yellow;
+        }
+    }
+	div {
+		width: 300px;
+		border: 15px solid green;
+		padding: 50px;
+		margin: 20px;
+	}
+
+	divTwo {
+		width: 100px;
+		height: 100px;
+		background-color: red;
+		animation-name: example;
+		animation-duration: 4s;
+	}
+
+	body{
+		background: url("clouds.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+</style>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width = device - width, initial - scale = 1.0" />
+	<title>Notepad Website</title>
+</head>
+
+<body>
+	<p><a href="http://www.google.com"> This is a link to google.com to demonstrate the purpose of links. </a></p>
+	<p>
+		My name is Connor. I am currently above 20 years old and am attending college at a Texas University. I used to be employed at a local bakery, but I decided I would quit so I could focus
+		on my last semester. I will be graduating in Fall 2022 if all goes well! Most of my free time is spent either playing Dungeons and Dragons or gaming. What I play depends on what my mood or what my friends are doing,
+		because I'm a big fan of co-op games.
+	</p>
+	<p>
+		<img src="dragons.png" width="180" height="180"
+			 alt="dragons">
+		<--- This is a picture of dragons my friend drew. Wow!
+	</p>
+
+	<p>
+	</p>
+
+	<ul>
+		<li><a href="http://www.youtube.com">YouTube, where we get most of the music for our DnD sessions.</a></li>
+		<li><a href="http://www.roll20.net">Roll20, where our DnD games are played.</a></li>
+		<li><a href="http://www.dnd5e.wikidot.com">DnD wikidot, where we get most of our DnD resources.</a></li>
+		<li><a href="http://dnd.wizards.com">The main WoTC website, the publishers of DnD.</a></li>
+	</ul>
+
+	<h1> This question form demonstrates HTML text input and not JavaScript.</h1>
+
+	<p>
+		<label>
+			Have you played Dnd?
+			<input name="answer" type="text" size="25"
+				   maxlength="30">
+		</label>
+	</p>
+
+	<FONT COLOR="RED">
+		<p> This is an example of changing the color of Font to red.  </p>
+	</FONT>
+
+	<font face=Comic Sans MS size="5">This is a demonstration of changing font size and type, to size 5 and Comic Sans MS.</font><br />
+
+		<div> There is text here within this box. </div>
+		<divTwo>This text will turn from red to yellow in a few seconds, then back to red.</divTwo>
+
+</body>
+
+</html>
